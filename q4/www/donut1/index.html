@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="shortcut icon" type="image/png" href="../icons8-cherry-donut-64.png">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="http://wlu-cp202.appspot.com/CP202/Fall2019/shopping_cart_v1/cart.js" async></script>
+<script>localStorage.checkoutURL = 'checkout.html';</script>
+
+    <meta charset="utf-8">
+    <title>Donut 1</title>
+  </head>
+  <body style="background-color:rgb(255,182,193);">
+    <div class="Main_Title">
+      <p>Tiny Timothy's Donuts</p>
+    </div>
+
+    <div class="words">
+      <p>These Chocolate donuts are soft and moist and dipped in a sweet glaze!</p>
+    </div>
+
+  <div class="box_1">
+
+  </div>
+
+  <div class="text">
+    <p>To add this delicious donut to your shoopping cart click on the image</p>
+
+  </div>
+
+
+
+<img onclick="clientAddItemToCart({prodName: 'Chocolate Donut', prodDesc: 'Great donut', prodPrice: '10.00', prodQty: '2'});" class = "c_donut" src="../img/chocolate_donut.jpg" alt="donut">
+
+
+
+
+  </body>
+</html>

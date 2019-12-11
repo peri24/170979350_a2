@@ -1,0 +1,47 @@
+.box-1{
+font-size: 30px;
+color: rgb(59,89,152);
+background-color: rgb(247,247,247);
+border: 5px rgb(59,89,152) solid;
+text-align:center;
+font-family: impact;
+}
+
+.box-2{
+font-size: 20px;
+text-align: center;
+
+
+
+
+}
+h4{
+  text-align: left;
+  font-size: 20px;
+  margin:auto;
+  border: 5px rgb(59,89,152) solid;
+}
+.bio{
+  font-family: arial;
+  text-align: left;
+}
+
+.box-3{
+
+
+}
+
+.box-4{
+  border: 0.1px rgb(59,89,152) solid;
+
+}
+
+.box-5{
+font-family: arial;
+
+}
+
+body{
+background-color: rgb(139,157,195);
+
+}
